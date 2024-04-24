@@ -20,12 +20,12 @@ dot.node('I', 'Typical Sugar Increase')
 dot.node('J', 'High Sugar Increase')
 
 # Revenue calculations
-dot.node('K', 'Revenue: $80000')
-dot.node('L', 'Revenue: $35000')
-dot.node('M', 'Revenue: $275000')
-dot.node('N', 'Revenue: $80000')
-dot.node('O', 'Revenue: $117500')
-dot.node('P', 'Revenue: $125000')
+dot.node('K', 'Revenue: $960000')
+dot.node('L', 'Revenue: $420000')
+dot.node('M', 'Revenue: $3300000')
+dot.node('N', 'Revenue: $960000')
+dot.node('O', 'Revenue: $1410000')
+dot.node('P', 'Revenue: $1500000')
 
 # Connect nodes with edges
 dot.edge('A', 'B', label='Harvest Now')

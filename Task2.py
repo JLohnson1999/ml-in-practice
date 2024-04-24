@@ -35,12 +35,12 @@ dot.node('K', 'Typical Sugar Increase')
 dot.node('L', 'High Sugar Increase')
 
 # Add revenue nodes with updated values
-dot.node('M', 'Revenue: $80000')
-dot.node('N', 'Revenue: $35000')
-dot.node('O', 'Revenue: $275000')
-dot.node('P', 'Revenue: $80000')
-dot.node('Q', 'Revenue: $117500')
-dot.node('R', 'Revenue: $125000')
+dot.node('M', 'Revenue: $960000')
+dot.node('N', 'Revenue: $420000')
+dot.node('O', 'Revenue: $3300000')
+dot.node('P', 'Revenue: $960000')
+dot.node('Q', 'Revenue: $1410000')
+dot.node('R', 'Revenue: $1500000')
 
 # Add edges for the decision-making process
 dot.edge('A', 'B', label='Harvest Now')
