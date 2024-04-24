@@ -1,0 +1,45 @@
+digraph {
+	A [label="Decide: Harvest Now or Wait"]
+	B [label="Harvest Now"]
+	C [label="Wait for more sugar"]
+	D [label="ML Predicts Storm"]
+	E [label="ML Predicts No Storm"]
+	F [label="Storm occurs"]
+	G [label="No Storm"]
+	H [label="Mold develops"]
+	I [label="No Mold"]
+	J [label="No Sugar Increase"]
+	K [label="Typical Sugar Increase"]
+	L [label="High Sugar Increase"]
+	M [label="Revenue: $80000"]
+	N [label="Revenue: $35000"]
+	O [label="Revenue: $275000"]
+	P [label="Revenue: $80000"]
+	Q [label="Revenue: $117500"]
+	R [label="Revenue: $125000"]
+	A -> B [label="Harvest Now"]
+	A -> C [label=Wait]
+	C -> D [label="ML Predicts Storm
+(0.89)"]
+	C -> E [label="ML Predicts No Storm
+(0.82)"]
+	D -> F [label="Storm Occurs
+(0.80)"]
+	D -> G [label="No Storm
+(0.20)"]
+	E -> G [label="No Storm
+(0.90)"]
+	F -> H [label="Mold develops
+(0.10)"]
+	F -> I [label="No Mold
+(0.90)"]
+	G -> J [label="60% No Sugar"]
+	G -> K [label="30% Typical Sugar"]
+	G -> L [label="10% High Sugar"]
+	B -> M [label=Revenue]
+	H -> N [label=Revenue]
+	I -> O [label=Revenue]
+	J -> P [label=Revenue]
+	K -> Q [label=Revenue]
+	L -> R [label=Revenue]
+}
